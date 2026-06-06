@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(32, 34, 37);
+}
+
+.Head_Text{
+    padding: 10px 10px; /*padding down up, left right think of it like a jacket thickness */
+    display: flex;
+    justify-content:flex-start;
+    background-color: rgb(46, 52, 58);
+    align-items: center;
+    gap: 100px;
+}
+
+/* finding which element is in front, for ex in here this is 
+finding div with class head image, and then img of the div*/
+.Head_image img{
+    height:100px;
+}
+
+/*the head title is inside the head text, however it still needs some flex settings for the elements inside */
+.Head_title{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Head_title p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(157, 171, 202)
+}
+
+.Head_title h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:azure;
+}
+
+.sideway_list{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    display: flex; /* make the list go sideway */
+    list-style-type: none; /* remove bulletin points */
+    padding:0px;
+    margin:0px;
+    gap:20px;
+}
+
+
+/*remember to add paddings and margins on the main, not individual element!*/
+/*column is for lines typa shi*/
+.main_body{
+    display:flex;
+    flex-direction: column;
+    padding:10px 50px;
+    margin:10px 0px;
+    background-color:  rgb(46, 52, 58);
+}
+
+.main_body h3{
+    justify-self: center;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main_body_pictures{
+    display:flex;
+    padding: 10px 20px;
+    margin:10px 0px 0px 0px; /* top bottom left rright */
+    background-color: rgb(46, 52, 58);
+    gap:10px;
+}
+
+.raccoon_main_pic{
+    height:250px
+}
+
+.main_state{
+    background-color: rgb(46, 52, 58);
+    padding:10px
+}
+
+.main_state p{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* Making sure that the formatting is done in the div and not on the paragraph */
